@@ -8,6 +8,7 @@ a {
 /* Slides */
 #slide {
 	padding: 0;
+    position: relative;
 }
 .swiper {
 	width: 100%;
@@ -15,6 +16,7 @@ a {
   }
 
   .swiper-slide {
+    position: relative;
 	text-align: center;
 	font-size: 18px;
 	background: #fff;
@@ -40,10 +42,14 @@ a {
 	height: 100%;
 	object-fit: cover;
   }
-
+ .swiper-pagination {
+     position: absolute;
+     left: 50%;
+    transform: translateX(-50%);
+ }
   .swiper-pagination-bullet {
-    position: relative;
-	left: 45em;
+    position: none;
+	
 	width: 20px;
 	height: 20px;
 	text-align: center;
@@ -53,6 +59,11 @@ a {
 	opacity: 1;
 	background: rgba(0, 0, 0, 0.2);
     margin: 0 3px;
+  }
+  .swiper-pagination-bullet span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .swiper-pagination-bullet-active {
@@ -97,15 +108,15 @@ i {
 }
 
 .display-3 {
-    font-family: 'Sanchez', serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
-    font-family: 'Tajawal', sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .lead {
-    font-family: 'Sanchez 200', serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* Start count */
 
