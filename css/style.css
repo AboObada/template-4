@@ -1,45 +1,9 @@
-.sidebar1 {
-    background: #8684f1;
-    /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#55b9f3, #559deb, #007aff);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#55b9f3, #559deb, #007aff);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#55b9f3, #559deb, #007aff);
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#55b9f3, #559deb, #007aff);
-    /* Standard syntax */
-    padding: 0px;
-    min-height: 100%;
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
-.logo {
-    max-height: 130px;
-}
-.logo>img {
-    margin-top: 75px;
-    padding: 3px;
-    width: 60px;
-    border-radius: 100%;
-}
-.list {
-    color: #fff;
-    list-style: none;
-    padding-left: 0px;
-}
-.list::first-line {
-    color: rgba(255, 255, 255, 0.5);
-}
-.list> li, h5 {
-    padding: 5px 0px 5px 40px;
-}
-.list>li:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-left: 5px solid white;
-    color: white;
-    font-weight: bolder;
-    padding-left: 35px;
-}.main-content{
-text-align:center;
+a {
+    text-decoration: none;
 }
 /* Slides */
 #slide {
@@ -47,7 +11,7 @@ text-align:center;
 }
 .swiper {
 	width: 100%;
-	height: 100%;
+	height: 600px;
   }
 
   .swiper-slide {
@@ -88,6 +52,7 @@ text-align:center;
 	color: #000;
 	opacity: 1;
 	background: rgba(0, 0, 0, 0.2);
+    margin: 0 3px;
   }
 
   .swiper-pagination-bullet-active {
@@ -101,6 +66,7 @@ text-align:center;
   }
   /* footer */
   #foot {
+    margin-top: 4em;
 	padding-top: 0.1rem; 
 	padding-bottom: 0.1rem; 
     background: #ff5f6d;
@@ -116,7 +82,8 @@ text-align:center;
 
 i {
     color: #0000cc;
-    font-size: 20px
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .form-control::placeholder {
